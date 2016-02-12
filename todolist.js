@@ -2,10 +2,13 @@
 var q = document.querySelector.bind(document);
 var qa = document.querySelectorAll.bind(document);
 
-var newToDo = document.getElementById("newToDo").value
+
+function newItem(){
+  var listItem = document.getElementById("newToDo").value;
+  console.log(listItem);
+};
 
 
-console.log(newToDo);
 
 
 
