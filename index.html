@@ -2,15 +2,10 @@
 
 <html>
   <head>
-    <script>
-    function newItem(){
-      var listItem = document.getElementById("newToDo").value;
-      console.log(listItem);
-    };
-    </script>
-        <!-- <script type="text/javascript" src="todolist.js" charset="utf-8"></script> -->
+    <script type="text/javascript" src="todolist.js" charset="utf-8"></script>
   </head>
-    <body>
+
+  <body>
 
         <h1>TO DO LIST</h1>
         <ul id="list">
@@ -21,11 +16,9 @@
 
         <p>Enter new To Do: <input type="text" id="newToDo"></p>
 
+        <button type="button" onclick="newItem()"> Enter ToDo</button>
 
-<button type="button" onclick="newItem()"> Enter ToDo</button>
-
-
-    </body>
+  </body>
 
 </html>
 

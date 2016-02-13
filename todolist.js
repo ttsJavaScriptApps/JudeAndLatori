@@ -3,13 +3,11 @@ var q = document.querySelector.bind(document);
 var qa = document.querySelectorAll.bind(document);
 
 
+
 function newItem(){
   var listItem = document.getElementById("newToDo").value;
   console.log(listItem);
 };
-
-
-
 
 
 
