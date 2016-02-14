@@ -4,11 +4,17 @@ var qa = document.querySelectorAll.bind(document);
 
 
 
-function newItem(){
-  var listItem = document.getElementById("newToDo").value;
-  console.log(listItem);
-};
+// function newItem(){
+//   var listItem = document.getElementById("newToDo").value;
+//   console.log(listItem);
+// };
 
+var newItem = function()
+
+document.getElementById("myButton").addEventListener("click", function(){
+    // document.getElementById("newToDo").innerHTML = "Hello World";
+    console.log(newToDo);
+});
 
 
 
