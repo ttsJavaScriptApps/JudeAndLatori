@@ -1,13 +1,8 @@
 
+//
 var q = document.querySelector.bind(document);
 var qa = document.querySelectorAll.bind(document);
 
-
-
-// function newItem(){
-//   var listItem = document.getElementById("newToDo").value;
-//   console.log(listItem);
-// };
 
 var newItem = function()
 
@@ -22,6 +17,10 @@ document.getElementById("myButton").addEventListener("click", function(){
 
 
 
+// function newItem(){
+//   var listItem = document.getElementById("newToDo").value;
+//   console.log(listItem);
+// };
 
 //
 // <button type="button" onclick="modifyColor()">Click Me</button>
