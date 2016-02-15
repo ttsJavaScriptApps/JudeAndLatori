@@ -4,12 +4,27 @@ var q = document.querySelector.bind(document);
 var qa = document.querySelectorAll.bind(document);
 
 
-var newItem = function()
 
-document.getElementById("myButton").addEventListener("click", function(){
-    // document.getElementById("newToDo").innerHTML = "Hello World";
-    console.log(newToDo);
-});
+
+//notes
+
+var list = document.querySelectorAll('li');
+var arrayOfList = Array.from(list);
+
+
+
+
+function myFunction() {
+    var xxx = document.getElementById("newToDo").value;
+    console.log(xxx);
+}
+
+
+
+// document.getElementById("myButton").addEventListener("click", function(){
+//     // document.getElementById("newToDo").innerHTML = "Hello World";
+//     console.log(newToDo);
+// });
 
 
 
