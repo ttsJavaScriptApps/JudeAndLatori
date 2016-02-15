@@ -1,26 +1,69 @@
 
-//
 var q = document.querySelector.bind(document);
 var qa = document.querySelectorAll.bind(document);
 
 
 
 
-//notes
 
-var list = document.querySelectorAll('li');
-var arrayOfList = Array.from(list);
-
-
-
+// var list = document.querySelectorAll('li');
+// var arrayOfList = Array.from(list);
+//
+// var xxx = "next to do";
 
 function myFunction() {
-    var xxx = document.getElementById("newToDo").value;
+    xxx = document.getElementById("newToDo").value;
     console.log(xxx);
+    // var list = document.querySelectorAll('li');
+    var list = document.querySelector('#list');
+    var newLI = document.createElement('li');
+    newLI.innerHTML = xxx;
+    list.appendChild(newLI);
+    console.log (list);
+    document.getElementById("newToDo").value = "";
+
 }
 
+// var newLI = document.createElement('li');
+// newLI.innerHTML = xxx;
+//
+// list = document.querySelector('ul');
+// list.appendChild(newLI); //Insert after item 1
+//
 
 
+
+
+
+
+
+
+//
+//
+// var list = document.querySelectorAll('li');
+// var arrayOfList = Array.from(list);
+//
+// var xxx = "next to do";
+//
+// function myFunction() {
+//     xxx = this.document.getElementById("newToDo").value;
+//     console.log(xxx);
+// }
+//
+// var newLI = document.createElement('li');
+// newLI.innerHTML = xxx;
+//
+// list = document.querySelector('ul');
+// list.appendChild(newLI); //Insert after item 1
+
+
+
+
+
+
+
+
+// ======================
 // document.getElementById("myButton").addEventListener("click", function(){
 //     // document.getElementById("newToDo").innerHTML = "Hello World";
 //     console.log(newToDo);
